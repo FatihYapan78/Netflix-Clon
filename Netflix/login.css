@@ -1,0 +1,64 @@
+html,
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Hero-İmage */
+.hero-image{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(img/arkaplan.jpg);
+    height: 200vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Login */
+.containers{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.containers button{
+    width: 82%;
+    height: 50px;
+}
+.containers a{
+    text-decoration: none;
+}
+/* footer */
+.arkaplan{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+footer p, .nav-link{
+    color: grey;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.nav-link:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+

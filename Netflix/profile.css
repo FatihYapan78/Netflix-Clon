@@ -1,0 +1,60 @@
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 230, 222);
+}
+
+/* Navbar */
+.logo{
+    width: 50px;
+   
+}
+.dropdown{
+    margin-right: 80px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+/* Container */
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.arkaplan{
+    background-color: black;
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+
+/* footer */
+footer p, .nav-link{
+    color: grey;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.nav-link:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:992px){
+    .text{
+        text-align: center;
+    }
+}

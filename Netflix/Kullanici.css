@@ -1,0 +1,30 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34, 34, 34);
+}
+
+.profil{
+    background-color: rgb(25, 25, 25);
+    width: 50%;
+}
+
+.card{
+    background-color: rgb(25, 25, 25);
+    border: none;
+    cursor: pointer;
+}
+.card img:hover{
+    border: 2px solid white;
+}
+
+button{
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid white;
+}
